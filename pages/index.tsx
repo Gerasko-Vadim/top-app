@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Button, Htag, P, Tag } from '../components'
+import { Button, Htag, P, Rating, Tag } from '../components'
 import styles from '../styles/Home.module.css'
 
 export default function Home(): JSX.Element {
@@ -17,6 +17,7 @@ export default function Home(): JSX.Element {
       <Tag size="s" color="primary"> Red</Tag>
       <Tag size="m" color="ghost"> Red</Tag>
       <Tag size="m" color="grey"> Red</Tag>
+      <Rating rating={4} />
     </>
   )
 }
